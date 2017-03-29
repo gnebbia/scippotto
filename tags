@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BYTE_TO_BINARY	src/utility.c	7;"	d	file:
+BYTE_TO_BINARY_PATTERN	src/utility.c	6;"	d	file:
+apply_matrix_on_display	src/display.c	/^apply_matrix_on_display (int *matrix, const size_t rows, const size_t cols,$/;"	f
+apply_surface	src/display.c	/^apply_surface (int x, int y, SDL_Surface * source, SDL_Surface * destination)$/;"	f
+create_font	src/chip8.c	/^void create_font(unsigned char* font)$/;"	f
+execute	src/chip8.c	/^void execute(chip8* chip)$/;"	f
+fetch	src/chip8.c	/^void fetch(chip8* chip)$/;"	f
+init_display	src/display.c	/^init_display (SDL_Surface * screen)$/;"	f
+initialize	src/chip8.c	/^void initialize(chip8* chip)$/;"	f
+keydown_case	src/display.c	/^keydown_case (SDL_Event event)$/;"	f
+load_rom	src/chip8.c	/^void load_rom(chip8* chip)$/;"	f
+main	src/main.c	/^int main(int argc, char* argv[])$/;"	f
+main	test/display.c	/^int main(int argc, char* args[])$/;"	f
+main	test/keyboard.c	/^int main(int argc, char* args[])$/;"	f
+print_state	src/utility.c	/^void print_state(chip8* chip)$/;"	f
+read_key	src/display.c	/^read_key (SDL_Event event)$/;"	f
+test_font	src/utility.c	/^void test_font(unsigned char* font)$/;"	f
